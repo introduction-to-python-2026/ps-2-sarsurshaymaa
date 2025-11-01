@@ -13,9 +13,8 @@ def find_mean(num1, num2, num3):
 
 def find_mean_std(num1, num2, num3):
   mean1 = find_mean(num1, num2, num3)
-  res1 = (num1 - mean) ** 2
-  res2 = (num2 - mean) ** 2
-  res3 = (num3 - mean) ** 2
+  res1 = (num1 - mean1) ** 2
+  res2 = (num2 - mean1) ** 2
+  res3 = (num3 - mean1) ** 2
   std = ((res1 + res2 + res3) / 3) ** 0.5
   return mean1 , std 
-
