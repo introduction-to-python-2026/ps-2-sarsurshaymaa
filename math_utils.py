@@ -4,11 +4,11 @@ def find_max_number(num1, num2, num3):
     elif num2 >= num3:
      return num2 
     else: 
-      return num3
+     return num3
         
 def find_mean(num1, num2, num3):
-    sum = num1 + num2 + num3
-    mean = sum / 3
+    total = num1 + num2 + num3
+    mean = total / 3
     return mean 
 
 def find_mean_std(num1, num2, num3):
